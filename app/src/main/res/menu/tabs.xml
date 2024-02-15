@@ -19,21 +19,29 @@ android:id="@+id/location"
         android:title="@string/location" />
 
     <item
-        android:icon="@drawable/baseline_sos_24"
+android:enabled="true"
+        android:title="">
+
+    </item>
+
+    <item
+        android:icon="@drawable/baseline_groups_24"
+
         android:id="@+id/sos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="true"
-        android:title="@string/sos" />
+        android:title="Chat" />
 
     <item
-        android:id="@+id/community"
-        android:icon="@drawable/baseline_groups_24"
+        android:id="@+id/contact"
+        android:icon="@drawable/baseline_contactless_24"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="true"
 
-        android:title="@string/community" />
+        android:title="Contact" />
 
 
 </menu>

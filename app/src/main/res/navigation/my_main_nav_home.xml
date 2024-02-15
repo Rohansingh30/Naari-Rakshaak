@@ -97,9 +97,9 @@
     </fragment>
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.SettingFragment"
+        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.ContactFragment"
         android:label="fragment_setting"
-        tools:layout="@layout/fragment_setting" >
+        tools:layout="@layout/fragment_contact" >
         <action
             android:id="@+id/action_settingFragment_to_groupFragment"
             app:destination="@id/groupFragment" />

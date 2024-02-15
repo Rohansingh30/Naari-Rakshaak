@@ -8,7 +8,11 @@
     <color name="teal_green">#075E54
     </color>
     <color name="blue">#34B7F1</color>
+    <color name="pinky">#FF3974</color>
+    <color name="orange">#f56f6c</color>
+    <color name="red">#EF2E29</color>
 
     <color name="darkpink">#7E2A43</color>
+    <color name="greeen">#5EB462</color>
 
 </resources>
