@@ -36,7 +36,7 @@
         android:theme="@style/Theme.NaariRakshak"
         tools:targetApi="31">
         <activity
-            android:name=".MenusWork.CreateContactActivity"
+            android:name=".Ui.Activities.MenusWork.CreateContactActivity"
             android:exported="false" />
         <activity
             android:name=".SosMenu.Activitys.RegisterNumberActivity"
@@ -45,7 +45,7 @@
             android:name=".MainActivities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name=".Ui.Activities.activity.LoginActivity"
             android:exported="true" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
@@ -63,7 +63,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Activities.SafeTutoialActivity"
+            android:name=".Ui.Activities.activity.SafeTutoialActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivities.MainActivity"

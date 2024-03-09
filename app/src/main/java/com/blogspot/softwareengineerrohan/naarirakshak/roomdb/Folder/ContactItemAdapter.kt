@@ -10,14 +10,18 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-class ContactItemAdapter(val context : Context, val list : List<ContactItemModel>, val listener: onActionClickListeber):RecyclerView.Adapter<ContactItemAdapter.ViewHolder>() {
+class ContactItemAdapter(val context : Context, var list : List<ContactItemModel>, val listener: onActionClickListeber):RecyclerView.Adapter<ContactItemAdapter.ViewHolder>() {
     class ViewHolder(val binding : RcvContactItemBinding):RecyclerView.ViewHolder(binding.root) {
 
     }
+fun setContactList(list : List<ContactItemModel>){
+    this.list = list
+    notifyDataSetChanged()
+}
 
     interface onActionClickListeber {
         fun onUpdateClick(position: Int)
-        fun onDeleteClick(position: Int)
+         fun onDeleteClick(position: Int)
 
     }
 
@@ -41,7 +45,6 @@ class ContactItemAdapter(val context : Context, val list : List<ContactItemModel
         holder.binding.tvDeleteBtn.setOnClickListener {
 
             listener.onDeleteClick(position)
-
         }
         holder.binding.tvUpdateBtn.setOnClickListener {
 

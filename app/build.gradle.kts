@@ -103,6 +103,7 @@ dependencies {
 
     implementation ("com.google.android.gms:play-services-location:17.0.0")
 
+//gemini
+    implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
 
-    //bottom sheet
 }

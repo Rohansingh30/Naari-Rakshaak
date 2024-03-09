@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.HomeFragment"
+        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.Fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -70,7 +70,7 @@
     </fragment>
     <fragment
         android:id="@+id/sosFragment"
-        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.SosFragment"
+        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.Fragments.SosFragment"
         android:label="fragment_sos"
         tools:layout="@layout/fragment_sos" >
         <action
@@ -82,7 +82,7 @@
     </fragment>
     <fragment
         android:id="@+id/groupFragment"
-        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.GroupFragment"
+        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.Fragments.GroupFragment"
         android:label="fragment_group"
         tools:layout="@layout/fragment_group" >
         <action
@@ -97,7 +97,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Fragments.ContactFragment"
+        android:name="com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.Fragments.ContactFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_contact" >
         <action

@@ -7,10 +7,8 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "contact_table")
 data class ContactItemModel(
 
-    @PrimaryKey(autoGenerate = true) val id: Int?,
-    @ColumnInfo(name = "name") val name: String?,
-    @ColumnInfo(name = "number") val number: String?
-
-
+    val name: String,
+    val number: String
 ) {
+    @PrimaryKey(autoGenerate = true) var id = 0
 }

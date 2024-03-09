@@ -3,7 +3,7 @@ package com.blogspot.softwareengineerrohan.naarirakshak.MainActivities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.blogspot.softwareengineerrohan.naarirakshak.Activities.LoginActivity
+import com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.activity.LoginActivity
 import com.blogspot.softwareengineerrohan.naarirakshak.SharedPreferernences.PrefConstants
 import com.blogspot.softwareengineerrohan.naarirakshak.SharedPreferernences.SharedPref
 
@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
             finish()
         }else{
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
 

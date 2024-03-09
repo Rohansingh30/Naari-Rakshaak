@@ -4,8 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.blogspot.softwareengineerrohan.naarirakshak.Activities.LoginActivity
-import com.blogspot.softwareengineerrohan.naarirakshak.R
+import com.blogspot.softwareengineerrohan.naarirakshak.Ui.Activities.activity.LoginActivity
 import com.blogspot.softwareengineerrohan.naarirakshak.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 import java.util.regex.Pattern
@@ -61,7 +60,7 @@ val pass: String = binding.etPasswordSignup.text.toString().trim()
         }
         binding.alreadyAccountBtn.setOnClickListener {
 
-            val intent = Intent(this,LoginActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
     }

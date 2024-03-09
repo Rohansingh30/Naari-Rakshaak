@@ -35,13 +35,13 @@ android:enabled="true"
 
     <item
         android:id="@+id/contact"
-        android:icon="@drawable/baseline_contactless_24"
-
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:enabled="true"
+        android:icon="@drawable/baseline_contactless_24"
 
-        android:title="Contact" />
+        android:title="Ai" />
 
 
 </menu>

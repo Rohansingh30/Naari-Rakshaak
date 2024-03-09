@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffdbe0"
-    tools:context=".LoginFragments.SplashFragment">
+    tools:context=".Ui.Activities.LoginFragments.SplashFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
