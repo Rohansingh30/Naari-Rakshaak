@@ -16,10 +16,15 @@ android:icon="@drawable/baseline_home_24"
 
         android:title="Announcements" />
     <item
-        android:id="@+id/headerSignOut"
         android:icon="@drawable/baseline_settings_24"
 
         android:title="settings" />
+
+    <item
+        android:id="@+id/headerInvite"
+        android:icon="@drawable/police_icon"
+        android:title="Invite Fragment"/>
+
 
 
     <item

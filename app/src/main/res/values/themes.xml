@@ -6,4 +6,15 @@
     </style>
 
     <style name="Theme.NaariRakshak" parent="Base.Theme.NaariRakshak" />
+
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        //screen background
+        <item name="android:windowBackground">@drawable/splash_background</item>
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        //status bar color-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:statusBarColor">@color/colorAccent</item>-->
+    </style>
 </resources>

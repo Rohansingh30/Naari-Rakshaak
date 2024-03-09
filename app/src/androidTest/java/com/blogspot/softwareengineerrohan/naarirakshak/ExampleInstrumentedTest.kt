@@ -1,4 +1,4 @@
-package com.blogspot.softwareengineerrohan.naarirakshak
+package com.blogspot.softwareengineerrohan.naarirakshakapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

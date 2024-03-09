@@ -37,8 +37,8 @@ class HomeFragment : Fragment() {
 
 
         val dataList = ArrayList<RavEmergencyItem>()
-        dataList.add(RavEmergencyItem(R.drawable.siren, "Active Police", "Call 122 for emergencies", "122"))
-        dataList.add(RavEmergencyItem(R.drawable.ambulance, "Ambulance", "Call 102 for ambulance", "102"))
+        dataList.add(RavEmergencyItem(R.drawable.siren, "Police", "Call 122 for emergencies", "122"))
+        dataList.add(RavEmergencyItem(R.drawable.ambulance, "Ambulance", "Call 102 for ambulance", "108"))
         dataList.add(RavEmergencyItem(R.drawable.fire, "Fire Brigade", "Call 101 for fire brigade ", "101"))
 
         binding.ravEmergency.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)

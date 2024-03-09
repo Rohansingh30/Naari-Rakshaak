@@ -9,12 +9,9 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
-
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
-
-    <uses-permission android:name="android.permission.CAMERA"/>
-
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -28,6 +25,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
+        android:name=".SharedPreferernences.NaariRakshakApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -37,7 +35,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NaariRakshak"
         tools:targetApi="31">
-
+        <activity
+            android:name=".MenusWork.CreateContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SosMenu.Activitys.RegisterNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivities.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -53,16 +62,16 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-
         <activity
             android:name=".Activities.SafeTutoialActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:name=".MainActivities.MainActivity"
+            android:exported="true" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".MainActivities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

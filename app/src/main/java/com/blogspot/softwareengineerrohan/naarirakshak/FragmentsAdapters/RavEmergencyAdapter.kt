@@ -33,12 +33,15 @@ class RavEmergencyAdapter(val context : Context, private val emergencyItems : Ar
 
         holder.binding.imageSiren.setImageResource(emergencyItems[position].sirenIimage)
         holder.binding.emertitle.text = emergencyItems[position].emerTitleTextView
-        holder.binding.emerDesp.text = emergencyItems[position].emerdDespTextView
+       // holder.binding.emerDesp.text = emergencyItems[position].emerdDespTextView
         holder.binding.emerNum.text = emergencyItems[position].emerCallTextView
 
         holder.binding.cardViewEmer.setOnClickListener {
             when (position) {
                 0 -> {
+
+
+
 
                     val intent = Intent(Intent.ACTION_DIAL)
                     intent.data = Uri.parse("tel:112")
@@ -55,7 +58,7 @@ class RavEmergencyAdapter(val context : Context, private val emergencyItems : Ar
 
 
                     val intent = Intent(Intent.ACTION_DIAL)
-                    intent.data = Uri.parse("tel:102")
+                    intent.data = Uri.parse("tel:108")
                     context.startActivity(intent)
 
 

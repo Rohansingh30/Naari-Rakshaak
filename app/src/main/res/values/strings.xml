@@ -7,6 +7,8 @@
     <string name="location">Location</string>
     <string name="home">Home</string>
 
+    <string name="default_web_client_id">1040539193734-invvjo4rg2otauqra2loor010j7lghkb.apps.googleusercontent.com</string>
+
     <string name="nav_open">Close Navigation Drawer</string>
     <string name="nav_close">Open navigation Drawer</string>
 
@@ -39,6 +41,8 @@
 4:\tKnow your surroundings.\n
 5:\tCarry your purse close to your body and do not leave \t unattended.\n
 6:\tTry not to carry too many packages.</b></string>
+    <string name="welcome">we glad to too see you again\n
+        Login to your account below</string>
 
 
 </resources>

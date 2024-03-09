@@ -3,7 +3,6 @@ package com.blogspot.softwareengineerrohan.naarirakshak.Activities
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.OvershootInterpolator
-import com.blogspot.softwareengineerrohan.naarirakshak.R
 import com.blogspot.softwareengineerrohan.naarirakshak.databinding.ActivitySafeTutoialBinding
 
 class SafeTutoialActivity : AppCompatActivity() {
