@@ -106,4 +106,8 @@ dependencies {
 //gemini
     implementation("com.google.ai.client.generativeai:generativeai:0.1.2")
 
+
+    //picasso
+    implementation("com.squareup.picasso:picasso:2.8")
+
 }

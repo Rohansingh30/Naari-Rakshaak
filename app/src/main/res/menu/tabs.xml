@@ -25,15 +25,6 @@ android:enabled="true"
     </item>
 
     <item
-        android:icon="@drawable/baseline_groups_24"
-
-        android:id="@+id/sos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:enabled="true"
-        android:title="Chat" />
-
-    <item
         android:id="@+id/contact"
         android:layout_width="wrap_content"
 
@@ -42,6 +33,16 @@ android:enabled="true"
         android:icon="@drawable/baseline_contactless_24"
 
         android:title="Ai" />
+
+    <item
+        android:icon="@drawable/baseline_person_24"
+
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:title="You" />
+
 
 
 </menu>

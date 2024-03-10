@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var toggled: ActionBarDrawerToggle
 
+
     // permissions
     val permissions = arrayOf(
         Manifest.permission.ACCESS_FINE_LOCATION,
@@ -94,7 +95,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
+// Upload data to firestore like this
         val db = FirebaseFirestore.getInstance()
 
         val currentUser = FirebaseAuth.getInstance().currentUser
@@ -102,6 +103,7 @@ class MainActivity : AppCompatActivity() {
         val email = currentUser?.email.toString()
         val phoneNumber = currentUser?.phoneNumber.toString()
         val imageUrl = currentUser?.photoUrl.toString()
+
 
         val user = hashMapOf(
             "Name " to name,
@@ -117,6 +119,16 @@ class MainActivity : AppCompatActivity() {
             .addOnSuccessListener { }
             .addOnFailureListener { }
 //**************************************************************************************
+
+
+
+
+
+
+
+
+//**************************************************************************************
+
         replaceFragment(HomeFragment())
 
 
@@ -156,13 +168,14 @@ class MainActivity : AppCompatActivity() {
 
                 }
 
-                R.id.sos -> {
-                    replaceFragment(GroupFragment())
-                }
-
                 R.id.contact -> {
                     replaceFragment(ContactFragment())
                 }
+
+                R.id.setting -> {
+                    replaceFragment(GroupFragment())
+                }
+
 
                 else -> {
                     false
@@ -193,10 +206,8 @@ class MainActivity : AppCompatActivity() {
 
                 }
 
-                R.id.headerProfile -> {
-                    Toast.makeText(applicationContext, "Profile Clicked", Toast.LENGTH_SHORT).show()
 
-                }
+
 
                 R.id.headerInvite -> {
                     replaceFragment(InviteFragment())
